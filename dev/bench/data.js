@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1616415682718,
-  "repoUrl": "https://github.com/Nerzal/gocloak",
+  "lastUpdate": 1634299177681,
+  "repoUrl": "https://github.com/vennekilde/gocloak",
   "entries": {
     "Benchmark": [
       {
@@ -2781,6 +2781,54 @@ window.BENCHMARK_DATA = {
             "value": 58754202,
             "unit": "ns/op\t   51932 B/op\t     218 allocs/op",
             "extra": "19 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vennekilde@outlook.com",
+            "name": "Jeppe Vennekilde",
+            "username": "vennekilde"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f4d42620a139cbb485e50152e67158550d39426a",
+          "message": "Format",
+          "timestamp": "2021-10-15T13:56:55+02:00",
+          "tree_id": "997dc0d11e919e2ef727d101777cfe7fbc061e6d",
+          "url": "https://github.com/vennekilde/gocloak/commit/f4d42620a139cbb485e50152e67158550d39426a"
+        },
+        "date": 1634299176674,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkLogin",
+            "value": 84465328,
+            "unit": "ns/op\t   64202 B/op\t     217 allocs/op",
+            "extra": "14 times"
+          },
+          {
+            "name": "BenchmarkLogin",
+            "value": 85743359,
+            "unit": "ns/op\t   77042 B/op\t     219 allocs/op",
+            "extra": "14 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkLoginParallel",
+            "value": 85153106,
+            "unit": "ns/op\t   72641 B/op\t     219 allocs/op",
+            "extra": "13 times"
+          },
+          {
+            "name": "BenchmarkLoginParallel",
+            "value": 56773675,
+            "unit": "ns/op\t   58529 B/op\t     218 allocs/op",
+            "extra": "25 times\n2 procs"
           }
         ]
       }
